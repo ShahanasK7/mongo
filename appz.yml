@@ -1,7 +1,7 @@
 app:
   name: MongoDB
   code: MONGODB
-  notify: asunil@ecloudcontrol.com
+  notify: apeethambaran@ecloudcontrol.com
 
 build:
   version: 8.0
@@ -11,7 +11,7 @@ build:
   image_template: mongo-8.0
 
 deploy:
-  context: athulecloud-1207/DEV
+  context: anandp0/DEV
   type: statefulset
   replicas: 1
   port:
