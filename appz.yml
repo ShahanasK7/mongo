@@ -4,11 +4,11 @@ app:
   notify: apeethambaran@ecloudcontrol.com
 
 build:
-  version: 6.0
+  version: 8.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-6.0
+  image_template: mongo-8.0
   
 deploy:
   context: anandp0/DEV
