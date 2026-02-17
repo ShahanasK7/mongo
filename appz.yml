@@ -45,7 +45,6 @@ properties:
   DB_USER_ADMIN: admin
   MONGO_DATABASE: testdb
   MONGO_USER: testuser
-  REPLICATION: "1"
   REPLICA_SET_NAME: rs0
   DB_USER_ADMIN_PASSWORD: 
     vault: DB_USER_ADMIN_PASSWORD
