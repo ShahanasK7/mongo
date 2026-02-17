@@ -1,19 +1,19 @@
 app:
   name: mongodb
   code: MONGODB
-  notify: apeethambaran@ecloudcontrol.com
+  notify: skotheri@ecloudcontrol.com
 
 build:
-  version: 6.0
+  version: 8.2
   env: DEV
   build_file: none
   output_files: output/*.zip
   image_template: mongo-6.0
   
 deploy:
-  context: anandp0/DEV
+  context: ShahanasK7/DEV
   type: statefulset
-  replicas: 1
+  replicas: 3
   port:
   - 27017
   - 9216
