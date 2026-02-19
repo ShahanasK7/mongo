@@ -4,11 +4,11 @@ app:
   notify: skotheri@ecloudcontrol.com
 
 build:
-  version: 8.2
+  version: 8.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-8.2
+  image_template: mongo-8.0
   
 deploy:
   context: ShahanasK7/DEV
@@ -67,5 +67,5 @@ properties:
   MONGODB_PORT: 27017
   MONGO_BACKUP_TIME: 2
   MONGO_BACKUP_DAYS: 7
-  revision: 27
+  revision: 29
   
